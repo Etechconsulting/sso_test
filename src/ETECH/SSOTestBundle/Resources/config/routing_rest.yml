@@ -1,0 +1,4 @@
+sso_test : 
+  type: rest
+  resource: "ETECHSSOTestBundle:SSO"
+  name_prefix:  api_
