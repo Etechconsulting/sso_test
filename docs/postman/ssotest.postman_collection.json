@@ -1,0 +1,58 @@
+{
+	"id": "3c3ddc1c-bdf1-79f5-436f-09de587851b0",
+	"name": "ssotest",
+	"description": "",
+	"order": [
+		"bd43a077-1d42-ba23-c447-093f41b9de1a",
+		"f2072beb-821c-65a9-68c7-7f23c16aaa54"
+	],
+	"folders": [],
+	"timestamp": 1466777809550,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "bd43a077-1d42-ba23-c447-093f41b9de1a",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://192.168.0.52/symfony/ssotest/src/ssotest_2_7_14/SSO_test_2_7_14/web/app_dev.php/generate/token/temp",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "3c3ddc1c-bdf1-79f5-436f-09de587851b0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://192.168.0.52/symfony/ssotest/src/ssotest_2_7_14/SSO_test_2_7_14/web/app_dev.php/generate/token/temp",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1466777809550,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"token_session\": \"8b0d9c93a3545d0d99f6486208dd3659ec802ee1\",\n    \"login\": \"santevet\"\n}"
+		},
+		{
+			"id": "f2072beb-821c-65a9-68c7-7f23c16aaa54",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://192.168.0.52/symfony/ssotest/src/ssotest_2_7_14/SSO_test_2_7_14/web/app_dev.php/login/token",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3c3ddc1c-bdf1-79f5-436f-09de587851b0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://192.168.0.52/symfony/ssotest/src/ssotest_2_7_14/SSO_test_2_7_14/web/app_dev.php/login/token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1466777842767,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"login\": \"santevet\",\n  \"token_temp\": \"30093bdfa9380e34b2cdec20ab2a82e0\",\n  \"expiration\": \"2016-06-24 16:17:10\"\n}"
+		}
+	]
+}
